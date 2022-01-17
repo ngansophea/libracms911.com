@@ -31,3 +31,89 @@ h3{
   .btn-call-action-lm{
     padding: 10px 30px 10px 30px ;
   }
+
+.chart-compare ul {
+  display: flex;
+  flex-direction: column;
+}
+.chart-compare .chart-1{
+  position: relative;
+}
+.chart-compare .chart-1::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  height: 50%;
+  border-right: 2px solid #ddd;
+  z-index: 2;
+}
+.chart-compare .chart-2{
+  position: relative;
+}
+.chart-compare .chart-2::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  height: 50%;
+  border-right: 2px solid #ddd;
+  z-index: 2;
+}
+.chart-compare .chart-2 ul{
+  position: relative;
+
+}
+
+ul.list-compare{
+  list-style-image: url("../img/checkmark.png");
+
+}
+ul.list-compare li{
+  padding-top: 10px;
+
+}
+
+.chart-1 {
+
+}
+
+
+
+
+
+
+@media (min-width: 767px) {
+    .adt7-btn-7178 , .btn-cta-icon {
+        display: none;
+    }
+    .adt7-btn-7178 .btn-cta {
+        padding: 0 32px;
+    }
+    .adt7-btn-7178 .btn-cta-text {
+        padding: 16px 0 15px 0;
+    }
+}
+@media (max-width: 768px) {
+    .adt7-btn-7178 .btn-cta-icon {
+        display: none;
+    }
+    .adt7-btn-7178 .btn-cta {
+        padding: 0 32px;
+    }
+    .adt7-btn-7178 .btn-cta-text {
+        padding: 16px 0 15px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
