@@ -89,10 +89,19 @@ ul.list-compare li{
 
 }
 
-.chart-1 {
+.sum-chart-title {
+  box-sizing :border-box;
+  font-family: "Roboto Medium", sans-serif;
+  font-size :40px;
+  font-weight: bold;
+  letter-spacing :normal;
+  line-height: 41px;
+  text-size-adjust :100%;
+  padding: 20px 0 40px;
+  -webkit-tap-highlight-color : rgba(0, 0, 0, 0);
 
 }
-.chart-imgs-v5 {
+.chart-img {
   background-color: rgb(243, 245, 246);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
