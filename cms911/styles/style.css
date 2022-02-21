@@ -62,3 +62,9 @@ body {
 .slide-btn .btn {
  padding:  5px !important;
 }
+.subtitle {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
